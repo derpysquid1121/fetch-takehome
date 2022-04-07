@@ -61,12 +61,12 @@ Otherwise if you wish to test this API with your own requests:
 * Next create an account or log in.
 * Next from your home screen, locate the workspaces tab in the upper left of the screen and either create a new one or enter an existing one.
 * Now in the upper left there should be a button titled `new`. Click on that button and select `HTTP Request`.
->![Capture 1](/images/Capture1.jpg)
->![Capture 2](/images/Capture2.jpg)
+>![Capture 1](/images/Capture1.PNG)
+>![Capture 2](/images/Capture2.PNG)
 
 ### Step 5: Making POST API calls to add transactions
 You should now see a screen that looks like this:
->![Capture 3](/images/Capture3.jpg)
+>![Capture 3](/images/Capture3.PNG)
 We will begin by teaching you how to POST transactions
 
 * In the screenshot above the dropdown is opened. Open the dropdown yourself and select the `POST` option. 
@@ -75,7 +75,7 @@ We will begin by teaching you how to POST transactions
 http://localhost:8080/points
 ```
 * Next click on the body tab and select raw as seen in the screenshot below.
->![Capture 4](/images/Capture4.jpg)
+>![Capture 4](/images/Capture4.PNG)
 * You'll want to paste the below data into the body.
 ```
 { "payer": "DANNON", "points": 1000, "timestamp": "2020-11-02T14:00:00Z" }
