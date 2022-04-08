@@ -29,7 +29,7 @@ node --version
 ```
 
 ### Step 1: Clone or Download repository
-If you have git installed, clone this repo on your machine by navigating via command line to your desired folder and typing:
+If you have git installed, clone this repo on your machine by navigating via the command line (powershell for windows, terminal for macOS) to your desired folder and typing:
 ```
 git clone https://github.com/dangerdavey/fetch-takehome.git
 ```
